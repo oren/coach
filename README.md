@@ -1,17 +1,23 @@
 # Coach
 
-Install
+Install Crystal
+```
+curl -sSL https://dist.crystal-lang.org/apt/setup.sh | sudo bash
+sudo apt install crystal
+```
+
+Get the code for the coach
 ```
 git clone git@github.com:oren/coach.git
 cd coach
 ```
 
-Build
+Create the coach program
 ```
 crystal build src/coach.cr
 ```
 
-Run
+Run It!
 ```
 ./coach
 
