@@ -1,2 +1,9 @@
 tags
 coach
+
+/docs/
+/lib/
+/bin/
+/.shards/
+*.dwarf
+
