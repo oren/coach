@@ -2,6 +2,7 @@ require "./coaches/*"
 require "option_parser"
 require "colorize"
 
+# modules are used for namespacing and for when the object will not be instantiated
 module Coach
   VERSION = "0.1.0"
 
