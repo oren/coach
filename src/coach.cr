@@ -1,3 +1,4 @@
+# bring external libraries into my code
 require "./coaches/*"
 require "option_parser"
 require "colorize"
@@ -37,10 +38,10 @@ module Coach
 
 	case option
 	when "1"
-		StrengthCoach.run()
+		StrengthCoach.run
 		exit
 	when "2"
-		SalsaCoach.run()
+		SalsaCoach.run
 		exit
 	else
 		puts "I am a work in progress myself. Give me a few more days to learn how to coach this skill (:"
