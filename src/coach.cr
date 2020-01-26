@@ -1,3 +1,4 @@
+require "./coaches/*"
 require "option_parser"
 require "colorize"
 
@@ -27,7 +28,20 @@ module Coach
 	puts ""
 	puts "Choose 1-4 and hit enter"
 	print "> "
-	user_input = gets
+	option = gets
 
-	puts "You entered: #{user_input.colorize(:white).on(:black)}"
+	puts ""
+	puts "You entered: #{option.colorize(:white).on(:black)}"
+
+
+	case option
+	when "1"
+		StrengthCoach.run()
+		exit
+	when "2"
+		SalsaCoach.run()
+		exit
+	else
+		puts "I am a work in progress myself. Give me a few more days to learn how to coach this skill (:"
+	end
 end

@@ -30,4 +30,8 @@ How can I help you today?
 4. Learn Chinese
 
 Choose 1-4 and hit enter
+> 1
+
+You entered: 1
+Run strength treaning coach
 ```
