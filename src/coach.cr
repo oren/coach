@@ -27,8 +27,9 @@ module Coach
 	puts "2. Learn to dance Cuban Salsa"
 	puts "3. Learn to Surf"
 	puts "4. Learn Chinese"
+	puts "5. Find your superpower"
 	puts ""
-	puts "Choose 1-4 and hit enter"
+	puts "Choose 1-5 and hit enter"
 	print "> "
 	option = gets
 
@@ -42,6 +43,9 @@ module Coach
 		exit
 	when "2"
 		SalsaCoach.run
+		exit
+	when "5"
+		SuperpowerCoach.run
 		exit
 	else
 		puts "I am a work in progress myself. Give me a few more days to learn how to coach this skill (:"
